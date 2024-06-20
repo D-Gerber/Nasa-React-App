@@ -1,7 +1,7 @@
 export default function Main() {
     return (
         <div>
-            <img src="Imagenary-Mars.jpg" alt="Imagenary-Mars-picture" />
+            <img src="mars.png" alt="mars-demo-picture" />
         </div>
     )
 }
