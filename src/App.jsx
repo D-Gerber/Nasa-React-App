@@ -4,7 +4,7 @@ import Main from "./components/Main"
 import SideBar from "./components/SideBar"
 
 function App() {
-  const [showModal, setShowModal] = useState()
+  const [showModal, setShowModal] = useState(false)
   return (
     <>
       <Main />
