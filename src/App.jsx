@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <Main />
-      <SideBar></SideBar>
+      {showModal && (
+        <SideBar />
+      )}
       <Footer />
     </>
   )
